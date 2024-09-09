@@ -13,7 +13,7 @@ import {
   AiOutlineUser,
 } from "react-icons/ai";
 import { GiOpenBook } from "react-icons/gi";
-
+import { MdWork } from "react-icons/md";
 import { CgFileDocument } from "react-icons/cg";
 
 function NavBar() {
@@ -85,7 +85,7 @@ function NavBar() {
                 to="/Experience"
                 onClick={() => updateExpanded(false)}
               >
-                <GiOpenBook style={{ marginBottom: "2px" }} /> Experience
+                <MdWork style={{ marginBottom: "2px" }} /> Experience
               </Nav.Link>
             </Nav.Item>
 

@@ -8,10 +8,13 @@ function ExpCard() {
             <div className="expcard">
             <img src={logomie} alt="kmutnb" className="logo4" style={{ maxHeight: "110px" }}/>
             <p style={{ textAlign: "justify" }}><span style={{ fontWeight:'bold'}} className="purple">
-            Multi Innovation Engineering</span>
+            Multi Innovation Engineering </span>
             <br />
-            <p style={{fontSize:'18px'}}>Bachelor Degree, Faculty of Industrial Technology in Electronics Computer Technology.</p>
-            <p style={{ color: "rgb(155 126 172)",textAlign:'right' }}>2022-Now</p>
+            <p style={{fontSize:'18px'}}>Internship
+                <p style={{fontSize:'16px'}}>Front-end developer
+                <p style={{fontSize:'16px'}}>&nbsp;&nbsp; - Assigned to work on a maintenance reporting project for web applications using Next.js, TypeScript, and MUI to ensure responsiveness on phone screens.
+                <br />&nbsp;&nbsp;&nbsp; - Integrated API</p></p></p>
+            <p style={{ color: "rgb(155 126 172)",textAlign:'right' }}>May-August | 2024</p>
             </p>
             </div>
             </blockquote>

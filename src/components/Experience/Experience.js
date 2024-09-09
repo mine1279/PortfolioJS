@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
 import ExpCard from "./ExpCard";
+import Detail from "./Detail";
 
 function Experience() {
     return(
@@ -21,7 +22,10 @@ function Experience() {
               My <strong className="purple">Experience</strong>
             </h1>
             <ExpCard />
-            
+            <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
+               <strong className="purple">Detail</strong>
+            </h1>
+            <Detail />
           </Col>
           </Row>
             </Container>
