@@ -12,8 +12,8 @@ function AboutCard() {
             <br />
             I’m currently a recent fresh graduate with a degree in <span className="purple">Electronic Computer Technology</span> at 
             <span className="purple"> King Mongkut University of Technology North Bangkok</span>.
-            I am looking for opportunities to pursue a career in <span className="purple">Web Developer</span> or
-            <span className="purple"> Front-End Developer</span>.
+            I am looking for opportunities to pursue a career in <span className="purple">Frontend Developer</span> or
+            <span className="purple"> Web Developer</span>.
             <br />
 
           </p>
