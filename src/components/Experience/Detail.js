@@ -30,13 +30,13 @@ function Detail() {
       <Col xs={6} md={5} className="exp-icons">
         <img src={sidebar} alt="Sidebar" />
       </Col>
-      <Col xs={4} md={10} className="exp-icons">
+      <Col xs={10} md={10} className="exp-icons">
         <img src={profileadmin} alt="Profileadmin" />
       </Col>
-      <Col xs={4} md={10} className="exp-icons">
+      <Col xs={10} md={10} className="exp-icons">
         <img src={editprofileadmin} alt="EditProfileadmin" />
       </Col>
-      <Col xs={4} md={10} className="exp-icons">
+      <Col xs={10} md={10} className="exp-icons">
         <img src={changpassadmin} alt="Changpassadmin" />
       </Col>
     </Row>
