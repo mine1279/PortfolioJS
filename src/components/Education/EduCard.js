@@ -14,7 +14,8 @@ function Educard() {
                 King Mongkut's University of Technology North Bangkok</span>
             <br />
             <p style={{fontSize:'18px'}}>Bachelor Degree, Faculty of Industrial Technology in Electronics Computer Technology.</p>
-            <p style={{ color: "rgb(155 126 172)",textAlign:'right' }}>2022-Now</p>
+            <p style={{fontSize:'18px'}}>GPAX : 3.00</p>
+            <p style={{ color: "rgb(155 126 172)",textAlign:'right' }}>2022-2024</p>
             </p>
             </div>
             <br />
