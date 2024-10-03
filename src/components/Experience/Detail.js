@@ -12,32 +12,32 @@ import sidebar from './img/sidebar.png';
 function Detail() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      <Col xs={6} md={5} className="exp-icons">
-        <img src={Register} alt="Register" />
+      <Col xs={12} sm={6} md={5} className="exp-icons">
+        <img src={Register} alt="Register" className="img-fluid" />
       </Col>
-      <Col xs={6} md={5} className="exp-icons">
-        <img src={profile} alt="Profile" />
+      <Col xs={12} sm={6} md={5} className="exp-icons">
+        <img src={profile} alt="Profile" className="img-fluid" />
       </Col>
-      <Col xs={6} md={5} className="exp-icons">
-        <img src={editprofile} alt="Edit Profile" />
+      <Col xs={12} sm={6} md={5} className="exp-icons">
+        <img src={editprofile} alt="Edit Profile" className="img-fluid" />
       </Col>
-      <Col xs={6} md={5} className="exp-icons">
-        <img src={historylist} alt="History List" />
+      <Col xs={12} sm={6} md={5} className="exp-icons">
+        <img src={historylist} alt="History List" className="img-fluid" />
       </Col>
-      <Col xs={6} md={5} className="exp-icons">
-        <img src={historydetail} alt="History Detail" />
+      <Col xs={12} sm={6} md={5} className="exp-icons">
+        <img src={historydetail} alt="History Detail" className="img-fluid" />
       </Col>
-      <Col xs={6} md={5} className="exp-icons">
-        <img src={sidebar} alt="Sidebar" />
+      <Col xs={12} sm={6} md={5} className="exp-icons">
+        <img src={sidebar} alt="Sidebar" className="img-fluid" />
       </Col>
-      <Col xs={10} md={10} className="exp-icons">
-        <img src={profileadmin} alt="Profileadmin" />
+      <Col xs={12} md={10} className="exp-icons">
+        <img src={profileadmin} alt="Profileadmin" className="img-fluid" />
       </Col>
-      <Col xs={10} md={10} className="exp-icons">
-        <img src={editprofileadmin} alt="EditProfileadmin" />
+      <Col xs={12} md={10} className="exp-icons">
+        <img src={editprofileadmin} alt="EditProfileadmin" className="img-fluid" />
       </Col>
-      <Col xs={10} md={10} className="exp-icons">
-        <img src={changpassadmin} alt="Changpassadmin" />
+      <Col xs={12} md={10} className="exp-icons">
+        <img src={changpassadmin} alt="Changpassadmin" className="img-fluid" />
       </Col>
     </Row>
   );

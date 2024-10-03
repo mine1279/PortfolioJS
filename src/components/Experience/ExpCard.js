@@ -6,8 +6,10 @@ function ExpCard() {
             <Card.Body>
             <blockquote className="blockquote mb-0">
             <div className="expcard">
-            <img src={logomie} alt="kmutnb" className="logo4" style={{ maxHeight: "110px" }}/>
-            <p style={{ textAlign: "justify" }}><span style={{ fontWeight:'bold'}} className="purple">
+            <div className="text-center">
+            <img src={logomie} alt="kmutnb" className="logo4 img-fluid" style={{ maxHeight: "110px", marginBottom: "20px" }}/>
+            </div>
+            <p style={{ textAlign: "justify" }}><span style={{ fontWeight:'bold', whiteSpace: 'nowrap'}} className="purple">
             Multi Innovation Engineering </span>
             <br />
             <p style={{fontSize:'18px'}}>Internship
