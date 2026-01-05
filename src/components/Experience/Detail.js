@@ -8,12 +8,17 @@ import historydetail from './img/historydetail.png';
 import profileadmin from './img/profileadmin.png';
 import editprofileadmin from './img/editprofileadmin.png';
 import changpassadmin from './img/changpassadmin.png';
+import changpassadminsuccess from './img/changpassadminsuccess.png';
+import Policy from './img/policy.png';
 import sidebar from './img/sidebar.png';
 function Detail() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={12} sm={6} md={5} className="exp-icons">
         <img src={Register} alt="Register" className="img-fluid" />
+      </Col>
+      <Col xs={12} sm={6} md={5} className="exp-icons">
+        <img src={Policy} alt="Policy" className="img-fluid" />
       </Col>
       <Col xs={12} sm={6} md={5} className="exp-icons">
         <img src={profile} alt="Profile" className="img-fluid" />
@@ -38,6 +43,9 @@ function Detail() {
       </Col>
       <Col xs={12} md={10} className="exp-icons">
         <img src={changpassadmin} alt="Changpassadmin" className="img-fluid" />
+      </Col>
+      <Col xs={12} md={10} className="exp-icons">
+        <img src={changpassadminsuccess} alt="Changpassadminsuccess" className="img-fluid" />
       </Col>
     </Row>
   );
